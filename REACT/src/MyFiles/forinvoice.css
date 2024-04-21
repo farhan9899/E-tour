@@ -1,0 +1,28 @@
+.invoice-container {
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+  }
+  
+  .invoice-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .invoice-card {
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .invoice-passenger-card {
+    margin-top: 40px;
+    padding: 20px;
+  }
+  
+  .invoice-passenger-card .card-title {
+    margin-bottom: 20px;
+  }
+  
+  .invoice-passenger-card li {
+    margin-bottom: 20px;
+  }
+  

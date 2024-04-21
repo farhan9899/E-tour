@@ -1,0 +1,43 @@
+/* Set a background color for the table */
+table {
+  background-color: #f2f2f2;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+
+/* Set a border around the table cells */
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+/* Set a background color for the table header cells */
+th {
+  
+  color: black;
+}
+
+/* Make the table responsive with media queries */
+@media screen and (max-width: 600px) {
+  table {
+    width: 100%;
+  }
+  td, th {
+    display: block;
+    text-align: left;
+    border: none;
+  }
+  th {
+    display: none;
+  }
+  tr {
+    border-bottom: 1px solid #ddd;
+  }
+  td:before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+}
+}
